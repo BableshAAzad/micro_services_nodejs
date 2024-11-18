@@ -1,0 +1,21 @@
+{
+  "name": "app1_service_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mssql": "^10.0.4",
+    "nodemon": "^3.1.7",
+    "typeorm": "^0.3.20"
+  }
+}
